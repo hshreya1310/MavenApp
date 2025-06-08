@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.8.1'  // Optional: only if you’ve set up a Maven tool in Jenkins
+        maven 'Maven'  // Optional: only if you’ve set up a Maven tool in Jenkins
     }
 
     stages {
